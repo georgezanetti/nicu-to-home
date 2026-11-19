@@ -1,10 +1,10 @@
 # Contributing
 
-Thank you for helping. Whether you are a parent, a nurse, a therapist or a developer, your experience can save another family hours of searching.
+Thank you for helping. Whether you are a parent, a nurse, a dietitian, a therapist or a developer, your experience can save another family hours of searching.
 
 ## Ways to help
 
-- **Suggest a keyword or product type.** Open a [keyword suggestion](../../issues/new?template=keyword-suggestion.yml) issue. You don't need to write code.
+- **Share a solution or keyword.** Open a [keyword suggestion](../../issues/new?template=keyword-suggestion.yml) issue. You don't need to write code.
 - **Report a bad result.** If the agent suggests something unsafe, wrong-sized or irrelevant, open an issue.
 - **Improve the code or docs.** Fork the repo, make your change on a branch and open a pull request.
 
@@ -14,13 +14,19 @@ Thank you for helping. Whether you are a parent, a nurse, a therapist or a devel
 - Every pull request needs an approving review from the maintainer before it can merge.
 - Keep pull requests small and focused on one thing.
 
+## Peer experience, labelled
+
+Everything on NICU to Home is shared as peer experience, and labelled that way: "Shared by a parent, not a professional. Check with your care team before using it."
+
+- **Welcome:** products and care practices your family used, written as experience. For example: "We used a CPAP hose cover to bundle his lines at night, so they stopped tangling."
+- **Say which country** you're in, because what you can buy, and what is covered, differs between Canada and the US.
+- **Hard limits:** no doses, nothing that tells a family to stop or change a prescribed treatment, and no diagnosing. Urgent symptoms always point to the care team.
+
 ## Privacy
 
 This repo is public. Please do not post anything that identifies a child or family: no names, photos, hospitals, medical records or detailed medical histories. Describe situations in general terms ("baby with a Broviac line, about 6 months old").
 
-## Safety
-
-This project recommends products, not care. Contributions must not include medical instructions, dosing, or advice on how to care for a line, tube or stoma. Product notes such as "parents use this to keep the line from being pulled" are welcome.
+Raw captures from parent groups are never committed. Only reviewed, anonymised records go into the repo.
 
 ## Shopify catalog terms
 

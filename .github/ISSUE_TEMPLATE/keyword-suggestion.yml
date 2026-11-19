@@ -32,6 +32,15 @@ body:
         - Baby (0 to 12 months)
         - Toddler
         - Older child
+  - type: dropdown
+    id: country
+    attributes:
+      label: Where do you live?
+      description: What you can buy, and what is covered, differs by country.
+      options:
+        - Canada
+        - United States
+        - Somewhere else
   - type: textarea
     id: tips
     attributes:

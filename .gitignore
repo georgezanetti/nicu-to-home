@@ -6,3 +6,5 @@ __pycache__/
 .venv/
 # Catalog responses must not be committed (Shopify usage guidelines)
 cache/
+# Raw captures from parent groups stay local; only reviewed records are committed
+captures/
