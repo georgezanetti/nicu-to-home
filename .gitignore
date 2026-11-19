@@ -8,3 +8,6 @@ __pycache__/
 cache/
 # Raw captures from parent groups stay local; only reviewed records are committed
 captures/
+
+# Private product spec: local mirror of the Claude Docs PRD, never committed
+docs/PRD.md
