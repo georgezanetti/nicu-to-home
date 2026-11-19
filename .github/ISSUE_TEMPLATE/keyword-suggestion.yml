@@ -1,0 +1,39 @@
+name: Keyword or product suggestion
+description: Tell us about a product type or search term that helped your family.
+labels: ["keyword"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! This repo is public, so please don't include names, photos, hospitals or anything that identifies your child.
+  - type: input
+    id: term
+    attributes:
+      label: What do you search for?
+      description: The words that actually find it, including parent slang.
+      placeholder: "e.g. tubie pads, Broviac line cover"
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What problem does it solve?
+      placeholder: "e.g. stops the G-tube button rubbing and leaking onto clothes"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: When did you need it?
+      multiple: true
+      options:
+        - In the NICU
+        - Coming home
+        - Baby (0 to 12 months)
+        - Toddler
+        - Older child
+  - type: textarea
+    id: tips
+    attributes:
+      label: Tips or things to avoid
+      description: Sizing quirks, materials that irritate, what didn't work.

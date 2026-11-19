@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.env.*
+node_modules/
+__pycache__/
+.venv/
+# Catalog responses must not be committed (Shopify usage guidelines)
+cache/
