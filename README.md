@@ -10,7 +10,7 @@ NICU to Home lets a parent describe a problem in plain words and get the solutio
 
 ## How it works
 
-1. **Knowledge from families.** Muse captures recommendations from parent groups each day. AI sorts them, merges duplicates across groups and removes anything that identifies a family. The maintainer reviews one daily summary before anything is published.
+1. **Knowledge from families.** Muse captures recommendations from parent groups each week. AI sorts them, merges duplicates across groups and removes anything that identifies a family. The maintainer reviews one weekly summary before anything is published. See [docs/muse-weekly-capture.md](docs/muse-weekly-capture.md).
 2. **Need map.** A map from situations (devices, conditions, stage, country) to needs and the words sellers use for them. See [docs/keywords.md](docs/keywords.md).
 3. **Agent.** Turns a parent's question into searches against the [Shopify Global Catalog](https://shopify.dev/docs/agents/catalog). When a product isn't there, it opens a ready-made search on Etsy, Amazon or Walmart for the family's country.
 4. **Eval harness.** Real parent questions, scored for relevance, fit, grounding and safety, so every change is measured.
